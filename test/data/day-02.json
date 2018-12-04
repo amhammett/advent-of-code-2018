@@ -35,6 +35,24 @@
           "result": "12"
         }
       ]
+    }, {
+      "name": "Part 2",
+      "function": "./src/day-02-1.js",
+      "test_cases": [
+        {
+          "description": "example",
+          "input": "abcde\nfghij\nklmno\npqrst\nfguij\naxcye\nwvxyz",
+          "result": "fgij"
+        }, {
+          "description": "letter difference - first",
+          "input": "abc\nxyz\nbbc",
+          "result": "bc"
+        }, {
+          "description": "letter difference - last",
+          "input": "xyz\nabc\nxyb",
+          "result": "xy"
+        }
+      ]
     }
   ]
 }
