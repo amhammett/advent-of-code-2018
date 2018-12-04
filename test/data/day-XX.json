@@ -1,0 +1,16 @@
+{
+  "title": "Day Template",
+  "scenarios": [
+    {
+      "name": "Part 1",
+      "function": "./src/day-XX.js",
+      "test_cases": [
+        {
+          "description": "test case",
+          "input": "input",
+          "result": "0"
+        }
+      ]
+    }
+  ]
+}
