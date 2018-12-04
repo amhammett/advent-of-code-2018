@@ -19,6 +19,28 @@
           "result": "-6"
         }
       ]
+    }, {
+      "name": "Part 2",
+      "function": "./src/day-01-1.js",
+      "test_cases": [
+        {
+          "description": "first",
+          "input": "+1\n-1",
+          "result": "0"
+        }, {
+          "description": "second",
+          "input": "+3\n+3\n+4\n-2\n-4",
+          "result": "10"
+        }, {
+          "description": "third",
+          "input": "-6\n+3\n+8\n+5\n-6",
+          "result": "5"
+        }, {
+          "description": "fourth",
+          "input": "+7\n+7\n-2\n-7\n-4",
+          "result": "14"
+        }
+      ]
     }
   ]
 }
