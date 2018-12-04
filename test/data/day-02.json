@@ -1,0 +1,40 @@
+{
+  "title": "Day-02",
+  "scenarios": [
+    {
+      "name": "Part 1",
+      "function": "./src/day-02.js",
+      "test_cases": [
+        {
+          "description": "first",
+          "input": "abcdef",
+          "result": "0"
+        }, {
+          "description": "example 1",
+          "input": "abcdef\nbababc",
+          "result": "1"
+        }, {
+          "description": "example 2",
+          "input": "abcdef\nbababc\nabbcde",
+          "result": "2"
+        }, {
+          "description": "example 3",
+          "input": "abcdef\nbababc\nabbcde\nabcccd",
+          "result": "4"
+        }, {
+          "description": "example 4",
+          "input": "abcdef\nbababc\nabbcde\nabcccd\naabcdd",
+          "result": "6"
+        }, {
+          "description": "example 5",
+          "input": "abcdef\nbababc\nabbcde\nabcccd\naabcdd\nabcdee",
+          "result": "8"
+        }, {
+          "description": "example 6",
+          "input": "abcdef\nbababc\nabbcde\nabcccd\naabcdd\nabcdee\nababab",
+          "result": "12"
+        }
+      ]
+    }
+  ]
+}
