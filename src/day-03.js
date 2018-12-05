@@ -32,7 +32,7 @@ function _handler(data, callback) {
         for (let plot_y = coordinates.y; plot_y < (Number(coordinates.y) + Number(coordinates.height)); plot_y++) {
           let coordinate = plot_x + '/' + plot_y
 
-          if (fabric.includes(coordinate)) {
+          if (fabric.includes(coordinate) && !fabric_overlap.includes(coordinate)) {
             fabric_overlap.push(coordinate)
           } else {
             fabric.push(coordinate)
@@ -41,6 +41,8 @@ function _handler(data, callback) {
       }
     })
   }
+
+  debug && console.log(fabric_overlap)
 
   callback(null, fabric_overlap.length)
 }
