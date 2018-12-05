@@ -38,11 +38,15 @@
         }, {
           "description": "no overlap",
           "input": "#1 @ 0,0: 1x1\n#2 @ 1,1: 1x1",
-          "result": ""
+          "result": "-1"
         }, {
           "description": "duplicate overlap",
           "input": "#1 @ 0,0: 1x1\n#2 @ 0,0: 1x1\n#3 @ 0,0: 1x1\n#4 @ 4,4: 4x4",
-          "result": "1"
+          "result": "4"
+        }, {
+          "description": "multiple duplicate overlap",
+          "input": "#1 @ 0,0: 1x2\n#2 @ 0,0: 2x1\n#3 @ 0,0: 2x2\n#4 @ 4,4: 6x7\n#5 @ 16,16: 4x4\n#6 @ 3,2: 4x4",
+          "result": "5"
         }
       ]
     }
